@@ -4,12 +4,24 @@ body{
     background-color: #E9967A;
     top: 0px;
     height: 90vh;
-    padding: 0px
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 0px;
 }
 
-div {
+menu > nav > a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;   
+}
+
+div.home {
     text-align: center;
-    min-height: 83vh;
+    min-height: 87.1vh;
 }
 
 div > h1 > picture > img {
