@@ -13,7 +13,29 @@ div.receita {
     background-color: #F9FAD2;
     min-height: 792px;
     margin: 10px;
-    width: 490px;    
+    width: 490px;
+    border-radius: 5px;  
+}
+
+div > picture > img {
+    padding: 6px;
+    height: 380px;
+    width: 475px;
+}
+
+hr {
+    width: 450px;
+}
+
+ul {
+    font-size: 24px;
+}
+
+article {
+    text-align: justify;
+    margin: 10px;
+    font-size: 24px;
+    text-indent: 30px;
 }
 
 div > h2 {

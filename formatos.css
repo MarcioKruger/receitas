@@ -2,8 +2,8 @@
 
 body{
     background-color: #E9967A;
+    font-family: Arial, Helvetica, sans-serif;
     top: 0px;
-    height: 90vh;
     padding: 0px;
     margin: 0px 0px 0px 0px;
     border-bottom: 0px;
@@ -11,27 +11,36 @@ body{
 
 menu > nav > a {
     text-decoration: none;
+    color: aliceblue;
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 16px;
 }
 
 .menu {
-    display: flex;   
+    background-color: rgb(36, 35, 35);
+    display: flex;  
+    height: 50px; 
+    margin-top: 0px;
 }
 
 div.home {
     text-align: center;
-    min-height: 87.1vh;
+    font-size: 30px;
+    height: 90%;
+    margin-top: 250px;
 }
 
 div > h1 > picture > img {
     width: 50px;
     height: 80px;
+
 }
 footer {
     background-color: black;
     color: aliceblue;
     padding: 1px;
+    margin-bottom: 0px;
 }
 
 footer > p {
