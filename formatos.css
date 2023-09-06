@@ -1,31 +1,28 @@
 @charset "UTF-8";
 
 body{
-    padding: 0px;
-    height: 100%;
-    width: 99%;
-}
-html{
-    background-color: #e4bd89;
+    background-color: #E9967A;
+    top: 0px;
+    height: 90vh;
+    padding: 0px
 }
 
 div {
     text-align: center;
+    min-height: 83vh;
 }
 
-p {
-    text-align: justify;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+div > h1 > picture > img {
+    width: 50px;
+    height: 80px;
 }
-
 footer {
     background-color: black;
     color: aliceblue;
     padding: 1px;
 }
+
 footer > p {
     text-align: center;
+    font-size: 20px;
+}
