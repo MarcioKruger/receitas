@@ -1,16 +1,21 @@
 @charset "UTF-8";
 
 body{
-    overflow-y: auto;
     background-color: #E9967A;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
+    height:max-content;
     margin: 0px 0px 0px 0px;
+    margin-bottom: 0%;    
+}
+
+main{
+    overflow-y: auto;
+    height: calc(100vh -100px);
 }
 header{
     height: 60px;
 }
-
 
 
 #menu {
@@ -21,18 +26,11 @@ header{
     margin-top: 0px;
 }
 
-#navbarNav > ul > li > a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    display: flex;
-    margin-left: 30px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
+
 
 div.home {
     text-align: center;
-    font-size: 30px;
+    font-size: 2px;
     min-height: 60.8vh;
     margin-top: 250px;
 }
@@ -42,14 +40,58 @@ div > h1 > picture > img {
     height: 80px;
 
 }
+
+#form{
+    width: 95%;
+}
 footer {
     background-color: black;
-    height: 50px;
+    height: 25px;
     color: aliceblue;
 }
 
 footer > p {
     text-align: center;
-    font-size: 20px;
-    padding: 11px;
+    font-size: 12px;
+    padding: 3px;
+    margin-bottom: 3;
+}
+
+div.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 500px;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+
+div.receita {
+    background-color: #F9FAD2;
+    min-height: 50.6vh;
+    margin: 7px;
+    width: 490px;
+    border-radius: 5px;  
+}
+
+
+
+hr {
+    width: 450px;
+}
+
+ul {
+    font-size: 24px;
+}
+
+article {
+    text-align: justify;
+    margin: 10px;
+    font-size: 24px;
+    text-indent: 30px;
+}
+
+div > h2 {
+    text-align: center;
 }
