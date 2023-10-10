@@ -1,25 +1,33 @@
 @charset "UTF-8";
 
 body{
+    overflow-y: auto;
     background-color: #E9967A;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px 0px 0px 0px;
 }
-
-menu > nav > a {
-    text-decoration: none;
-    color: aliceblue;
-    display: flex;
-    margin-left: 30px;
-    margin-top: 16px;
+header{
+    height: 60px;
 }
 
-.menu {
-    background-color: rgb(36, 35, 35);
+
+
+#menu {
+    background-color: black;
+    color: aliceblue;
     display: flex;  
     height: 50px; 
     margin-top: 0px;
+}
+
+#navbarNav > ul > li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 div.home {

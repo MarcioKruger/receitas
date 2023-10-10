@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 div.receitas {
     display: flex;
     flex-wrap: wrap;
@@ -8,6 +9,7 @@ div.receitas {
     justify-content: center;
     
 }
+
 
 div.receita {
     background-color: #F9FAD2;
