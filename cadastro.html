@@ -30,11 +30,13 @@
             </div>
         </nav>
     </header>
-    <main class="m-2 container-fluid" >
+    <main class="container-fluid" >
         <div class="mb-5">
             <h2 class="p-1 m-2">Efetue seu cadastro</h2>
 
             <form class="row-3 g-3 m-2" id="form" action="https://formsubmit.co/devfull.kruger@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="https://127.0.0.1:5500/cadastro.html">
+                <input type="hidden" name="_captcha" value="false">
                 
                 <div class="row mb-3 p-2 ">
                     <label for="nome" class="col-sm-1 col-form-label" required name="nome">Nome</label>
